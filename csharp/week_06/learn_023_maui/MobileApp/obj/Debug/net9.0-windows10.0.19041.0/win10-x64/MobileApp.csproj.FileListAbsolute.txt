@@ -470,3 +470,17 @@ C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_023_maui\MobileApp\obj\Debu
 C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_023_maui\MobileApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt
 C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_023_maui\MobileApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_023_maui\MobileApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
+C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_023_maui\MobileApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Avalonia.Base.dll
+C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_023_maui\MobileApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Avalonia.Controls.dll
+C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_023_maui\MobileApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Avalonia.DesignerSupport.dll
+C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_023_maui\MobileApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Avalonia.Dialogs.dll
+C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_023_maui\MobileApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Avalonia.Markup.Xaml.dll
+C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_023_maui\MobileApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Avalonia.Markup.dll
+C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_023_maui\MobileApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Avalonia.Metal.dll
+C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_023_maui\MobileApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Avalonia.MicroCom.dll
+C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_023_maui\MobileApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Avalonia.OpenGL.dll
+C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_023_maui\MobileApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Avalonia.Vulkan.dll
+C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_023_maui\MobileApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Avalonia.dll
+C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_023_maui\MobileApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Avalonia.Remote.Protocol.dll
+C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_023_maui\MobileApp\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\MicroCom.Runtime.dll
+C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_023_maui\MobileApp\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Avalonia\Resources.Inputs.cache

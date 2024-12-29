@@ -60,7 +60,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -68,13 +68,17 @@
         "net9.0-android35.0": {
           "targetAlias": "net9.0-android",
           "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.2.3, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[9.0.0, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.0.21, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -102,18 +106,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         },
         "net9.0-ios18.2": {
           "targetAlias": "net9.0-ios",
           "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.2.3, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[9.0.0, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.0.21, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -141,18 +149,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         },
         "net9.0-maccatalyst18.2": {
           "targetAlias": "net9.0-maccatalyst",
           "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.2.3, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[9.0.0, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.0.21, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -181,18 +193,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         },
         "net9.0-windows10.0.19041": {
           "targetAlias": "net9.0-windows10.0.19041.0",
           "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.2.3, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[9.0.0, )"
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.0.21, )"
             }
           },
           "imports": [
@@ -220,7 +236,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
