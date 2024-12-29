@@ -1,34 +1,35 @@
-﻿using System;
+﻿using Shared.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Shared.Models;
 
-namespace Shared.Services;
-
-public class ProductService
+namespace Shared.Services
 {
-    private List<Product> _products = [];
-
-    public void Add(Product products)
+    public class ProductService
     {
-        _products.Add(products);
-    }
+        private List<Product> _products = [];
 
-    public IEnumerable<Product> GetAll()
-    {
-        return _products;
-    }
+        public void Add(Product products)
+        {
+            _products.Add(products);
+        }
 
-    public Product GetOne(Func<Product, bool> predicate)
-    {
-        var product = _products.FirstOrDefault(predicate);
-        return product ?? null!;
-    }
+        public IEnumerable<Product> GetAll()
+        {
+            return _products;
+        }
 
-    public void Delete(Product product)
-    {
-        _products.Remove(product);
+        public Product GetOne(Func<Product, bool> predicate)
+        {
+            var product = _products.FirstOrDefault(predicate);
+            return product ?? null!;
+        }
+
+        public void Delete(Product product)
+        {
+            _products.Remove(product);
+        }
     }
 }

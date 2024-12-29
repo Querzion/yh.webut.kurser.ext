@@ -1,4 +1,6 @@
-﻿namespace NavigationPageNavigation
+﻿using NavigationPageNavigation.Pages;
+
+namespace NavigationPageNavigation
 {
     public partial class App : Application
     {
@@ -6,7 +8,7 @@
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage();
+            MainPage = new NavigationPage(new ProductListPage());
         }
     }
 }
