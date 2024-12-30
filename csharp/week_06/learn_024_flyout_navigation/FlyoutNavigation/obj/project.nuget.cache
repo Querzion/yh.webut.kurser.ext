@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "yGSzMytRdrc=",
+  "dgSpecHash": "NC0rMLCGyjg=",
   "success": true,
   "projectFilePath": "C:\\Projects\\yh.webut.kurser.ext\\csharp\\week_06\\learn_024_flyout_navigation\\FlyoutNavigation\\FlyoutNavigation.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\iam\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512",
     "C:\\Users\\iam\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\iam\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\iam\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

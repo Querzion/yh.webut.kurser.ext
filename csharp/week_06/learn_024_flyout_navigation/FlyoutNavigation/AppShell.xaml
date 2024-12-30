@@ -8,7 +8,7 @@
     xmlns:pages="clr-namespace:FlyoutNavigation.Pages"
     
     Shell.FlyoutBehavior="Flyout"
-    
+        
     Shell.NavBarIsVisible="False"
     
     Title="FlyoutNavigation">

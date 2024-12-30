@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using FlyoutNavigation.Pages;
+using FlyoutNavigation.ViewModels;
+using Microsoft.Extensions.Logging;
 
 namespace FlyoutNavigation
 {
@@ -15,9 +17,10 @@ namespace FlyoutNavigation
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
-#if DEBUG
-    		builder.Logging.AddDebug();
-#endif
+            builder.Services.AddTransient<ProductAddViewModel>();
+            builder.Services.AddTransient<ProductListViewModel>();
+            builder.Services.AddTransient<ProductListPage>();
+            builder.Services.AddTransient<ProductAddPage>();
 
             return builder.Build();
         }

@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_024_flyout_navigation\FlyoutNavigation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-12-30T13:38:17.930</Modified>
+      <Modified>2024-12-30T14:09:27.175</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_024_flyout_navigation\FlyoutNavigation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-12-30T13:27:49.591</Modified>
+      <Modified>2024-12-30T14:09:27.053</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_024_flyout_navigation\FlyoutNavigation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FlyoutNavigation.runtimeconfig.json">
       <PackagePath>FlyoutNavigation.runtimeconfig.json</PackagePath>
-      <Modified>2024-12-30T13:27:49.334</Modified>
+      <Modified>2024-12-30T13:54:14.858</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_024_flyout_navigation\FlyoutNavigation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FlyoutNavigation.dll">
       <PackagePath>FlyoutNavigation.dll</PackagePath>
-      <Modified>2024-12-30T13:38:17.522</Modified>
+      <Modified>2024-12-30T14:09:26.731</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_024_flyout_navigation\FlyoutNavigation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>FlyoutNavigation.exe</PackagePath>
-      <Modified>2024-12-30T13:38:17.526</Modified>
+      <Modified>2024-12-30T14:09:26.737</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_024_flyout_navigation\FlyoutNavigation\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -287,7 +287,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_024_flyout_navigation\FlyoutNavigation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\FlyoutNavigation.deps.json">
       <PackagePath>FlyoutNavigation.deps.json</PackagePath>
-      <Modified>2024-12-30T13:27:49.136</Modified>
+      <Modified>2024-12-30T13:54:14.732</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\iam\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.54\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -296,6 +296,10 @@
     <AppxPackagedFile Include="C:\Users\iam\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.54\lib\net8.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2024-10-14T22:26:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\iam\.nuget\packages\communitytoolkit.mvvm\8.4.0\lib\net8.0-windows10.0.17763\CommunityToolkit.Mvvm.dll">
+      <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
+      <Modified>2024-12-12T07:54:40.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\iam\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>

@@ -180,3 +180,4 @@ C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_024_flyout_navigation\Flyou
 C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_024_flyout_navigation\FlyoutNavigation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_024_flyout_navigation\FlyoutNavigation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_024_flyout_navigation\FlyoutNavigation\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_024_flyout_navigation\FlyoutNavigation\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Mvvm.dll
