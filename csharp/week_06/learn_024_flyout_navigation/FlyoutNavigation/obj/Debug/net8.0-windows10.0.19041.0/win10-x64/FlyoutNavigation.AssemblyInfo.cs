@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FlyoutNavigation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+8303047874a7240f66b965315cffb10563110565")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+82ec6a4d148bb319283eb6c8d7a35cd10a36e2ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("FlyoutNavigation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FlyoutNavigation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
