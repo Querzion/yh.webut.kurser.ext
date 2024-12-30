@@ -1,5 +1,6 @@
 ﻿using MauiWithMvvm.ViewModels;
 using Microsoft.Extensions.Logging;
+using Shared.Services;
 
 namespace MauiWithMvvm
 {
@@ -18,6 +19,8 @@ namespace MauiWithMvvm
 
             builder.Services.AddSingleton<MainViewModel>();
             builder.Services.AddSingleton<MainPage>();
+            builder.Services.AddSingleton<CustomerService>();
+
 
 
             builder.Logging.AddDebug();

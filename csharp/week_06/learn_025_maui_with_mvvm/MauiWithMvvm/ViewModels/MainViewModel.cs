@@ -13,7 +13,6 @@ public partial class MainViewModel : ObservableObject
     public MainViewModel(CustomerService customerService)
     {
         _customerService = customerService;
-        CustomerList = (ObservableCollection<Customer>)_customerService.GetCustomers();
 
         //foreach(Customer customer in _customerService.GetCustomers())
         //{
@@ -36,8 +35,13 @@ public partial class MainViewModel : ObservableObject
 
             if (result)
             {
-                CustomerList = (ObservableCollection<Customer>)_customerService.GetCustomers();
+                UpdateCustomerList();
             }
         }
+    }
+
+    public void UpdateCustomerList()
+    {
+        CustomerList = new ObservableCollection<Customer>(_customerService.Customers.Select(customer => customer).ToList());
     }
 }

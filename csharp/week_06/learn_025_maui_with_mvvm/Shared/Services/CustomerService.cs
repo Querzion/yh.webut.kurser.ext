@@ -5,13 +5,13 @@ namespace Shared.Services;
 
 public class CustomerService
 {
-    private List<Customer> _customers = []; 
+    public List<Customer> Customers { get; private set; } = []; 
 
     public bool AddCustomerToList(Customer customer)
     {
         if (!string.IsNullOrWhiteSpace(customer.CompanyName))
         {
-            _customers.Add(customer);
+            Customers.Add(customer);
             return true;
         } 
         return false;
@@ -19,18 +19,18 @@ public class CustomerService
 
     public IEnumerable<Customer> GetCustomers()
     {
-        return _customers;
+        return Customers;
     }
 
     public bool RemoveCustomerToList(Customer customer)
     {
         if (!string.IsNullOrWhiteSpace(customer.CompanyName))
         {
-            var existingCustomer = _customers.FirstOrDefault(x => x.CompanyName == customer.CompanyName);
+            var existingCustomer = Customers.FirstOrDefault(x => x.CompanyName == customer.CompanyName);
             
             if (existingCustomer != null)
             {
-                _customers.Remove(existingCustomer);
+                Customers.Remove(existingCustomer);
                 return true;
             }
         }
