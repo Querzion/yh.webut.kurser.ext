@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TabbedNavigation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+8303047874a7240f66b965315cffb10563110565")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+e397bac722a92fd083bb9922a25c4ba4f88e0a92")]
 [assembly: System.Reflection.AssemblyProductAttribute("TabbedNavigation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TabbedNavigation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
