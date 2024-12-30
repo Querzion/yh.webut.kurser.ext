@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_025_maui_with_mvvm\MauiWithMvvm\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-12-30T15:34:10.503</Modified>
+      <Modified>2024-12-30T18:53:37.023</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_025_maui_with_mvvm\MauiWithMvvm\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-12-30T15:34:10.291</Modified>
+      <Modified>2024-12-30T18:53:36.694</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_025_maui_with_mvvm\MauiWithMvvm\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiWithMvvm.runtimeconfig.json">
       <PackagePath>MauiWithMvvm.runtimeconfig.json</PackagePath>
-      <Modified>2024-12-30T15:34:10.050</Modified>
+      <Modified>2024-12-30T18:53:36.370</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_025_maui_with_mvvm\MauiWithMvvm\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiWithMvvm.dll">
       <PackagePath>MauiWithMvvm.dll</PackagePath>
-      <Modified>2024-12-30T15:34:09.054</Modified>
+      <Modified>2024-12-30T18:53:34.952</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_025_maui_with_mvvm\MauiWithMvvm\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiWithMvvm.exe</PackagePath>
-      <Modified>2024-12-30T15:34:09.073</Modified>
+      <Modified>2024-12-30T18:53:34.977</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_025_maui_with_mvvm\MauiWithMvvm\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -287,7 +287,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_025_maui_with_mvvm\MauiWithMvvm\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiWithMvvm.deps.json">
       <PackagePath>MauiWithMvvm.deps.json</PackagePath>
-      <Modified>2024-12-30T15:34:09.910</Modified>
+      <Modified>2024-12-30T18:53:36.169</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\iam\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.54\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -296,6 +296,10 @@
     <AppxPackagedFile Include="C:\Users\iam\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.54\lib\net8.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2024-10-14T22:26:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\iam\.nuget\packages\communitytoolkit.mvvm\8.4.0\lib\net8.0-windows10.0.17763\CommunityToolkit.Mvvm.dll">
+      <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
+      <Modified>2024-12-12T07:54:40.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\iam\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
@@ -572,6 +576,10 @@
     <AppxPackagedFile Include="C:\Users\iam\.nuget\packages\microsoft.windowsappsdk\1.5.240627000\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2024-06-25T19:48:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_025_maui_with_mvvm\Shared\bin\Debug\net8.0\Shared.dll">
+      <PackagePath>Shared.dll</PackagePath>
+      <Modified>2024-12-30T18:53:20.810</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\iam\.nuget\packages\microsoft.maui.controls.compatibility\8.0.83\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

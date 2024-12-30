@@ -178,3 +178,6 @@ C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_025_maui_with_mvvm\MauiWith
 C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_025_maui_with_mvvm\MauiWithMvvm\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_025_maui_with_mvvm\MauiWithMvvm\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_025_maui_with_mvvm\MauiWithMvvm\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_025_maui_with_mvvm\MauiWithMvvm\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Mvvm.dll
+C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_025_maui_with_mvvm\MauiWithMvvm\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Shared.dll
+C:\Projects\yh.webut.kurser.ext\csharp\week_06\learn_025_maui_with_mvvm\MauiWithMvvm\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Shared.pdb

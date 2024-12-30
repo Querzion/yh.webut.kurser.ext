@@ -10,7 +10,6 @@ public class Customer
 {
     public string Id { get; set; } = Guid.NewGuid().ToString();
     public string CompanyName { get; set; } = null!;
-
     public ContactPerson Contact {  get; set; } = new ContactPerson();
    
 }
