@@ -40,6 +40,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = FlyoutNavigation.MainPage.
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
+[C:/Projects/yh.webut.kurser.ext/csharp/week_06/learn_024_flyout_navigation/FlyoutNavigation/Pages/ProductAddPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FlyoutNavigation.Pages.ProductAddPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ProductAddPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ProductAddPage.xaml
+
+[C:/Projects/yh.webut.kurser.ext/csharp/week_06/learn_024_flyout_navigation/FlyoutNavigation/Pages/ProductListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FlyoutNavigation.Pages.ProductListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ProductListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ProductListPage.xaml
+
 [C:/Projects/yh.webut.kurser.ext/csharp/week_06/learn_024_flyout_navigation/FlyoutNavigation/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FlyoutNavigation.Resources.Styles.Colors.xaml
