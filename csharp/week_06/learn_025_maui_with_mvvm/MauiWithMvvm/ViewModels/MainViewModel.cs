@@ -35,6 +35,22 @@ public partial class MainViewModel : ObservableObject
 
             if (result)
             {
+                // Converts the customers list in order to add to an observable collection list of Customer.
+                UpdateCustomerList();
+                // Empties the fields after an update has been made.
+                RegistrationForm = new();
+            }
+        }
+    }
+
+    [RelayCommand]
+    public void RemoveContactFromList(Customer customer)
+    {
+        if (customer != null)
+        {
+            var result = _customerService.RemoveCustomerFromList(customer);
+            if (result)
+            {
                 UpdateCustomerList();
             }
         }

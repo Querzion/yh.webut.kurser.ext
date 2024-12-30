@@ -22,7 +22,7 @@ public class CustomerService
         return Customers;
     }
 
-    public bool RemoveCustomerToList(Customer customer)
+    public bool RemoveCustomerFromList(Customer customer)
     {
         if (!string.IsNullOrWhiteSpace(customer.CompanyName))
         {
