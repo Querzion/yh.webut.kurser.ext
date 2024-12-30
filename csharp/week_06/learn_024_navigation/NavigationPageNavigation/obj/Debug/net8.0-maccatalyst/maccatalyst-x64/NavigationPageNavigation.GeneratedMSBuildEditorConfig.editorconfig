@@ -3,6 +3,11 @@ build_property.EnableAotAnalyzer =
 build_property.EnableSingleFileAnalyzer = 
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
+build_property.MvvmToolkitEnableINotifyPropertyChangingSupport = true
+build_property._MvvmToolkitIsUsingWindowsRuntimePack = false
+build_property.CsWinRTComponent = 
+build_property.CsWinRTAotOptimizerEnabled = 
+build_property.CsWinRTAotWarningLevel = 
 build_property.TargetFramework = net8.0-maccatalyst
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
@@ -29,6 +34,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = NavigationPageNavigation.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Projects/yh.webut.kurser.ext/csharp/week_06/learn_024_navigation/NavigationPageNavigation/Pages/ProductAddPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = NavigationPageNavigation.Pages.ProductAddPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ProductAddPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ProductAddPage.xaml
 
 [C:/Projects/yh.webut.kurser.ext/csharp/week_06/learn_024_navigation/NavigationPageNavigation/Pages/ProductListPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

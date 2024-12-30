@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
+using NavigationPageNavigation.Pages;
+using Shared.Services;
 
 namespace NavigationPageNavigation
 {
@@ -15,9 +17,9 @@ namespace NavigationPageNavigation
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
-#if DEBUG
-    		builder.Logging.AddDebug();
-#endif
+            builder.Services.AddSingleton<ProductAddPage>();
+            builder.Services.AddSingleton<ProductListPage>();
+            builder.Services.AddSingleton<ProductService>();
 
             return builder.Build();
         }

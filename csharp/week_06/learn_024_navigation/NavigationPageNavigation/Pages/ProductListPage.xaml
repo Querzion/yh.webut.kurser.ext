@@ -4,9 +4,9 @@
              x:Class="NavigationPageNavigation.Pages.ProductListPage"
              Title="ProductListPage">
     <VerticalStackLayout>
-        <Label 
-            Text="Product List"
+        <Label Text="Product List" 
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+        <Button x:Name="Btn_Add" Text="Add" Clicked="Btn_Add_Clicked" />
     </VerticalStackLayout>
 </ContentPage>

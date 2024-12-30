@@ -4,11 +4,15 @@ namespace NavigationPageNavigation
 {
     public partial class App : Application
     {
-        public App()
+        private readonly IServiceProvider _serviceProvider;
+
+        public App(IServiceProvider serviceProvider)
         {
             InitializeComponent();
+            _serviceProvider = serviceProvider;
 
-            MainPage = new NavigationPage(new ProductListPage());
+            var productListPage = _serviceProvider.GetRequiredService<ProductListPage>();
+            MainPage = new NavigationPage(productListPage);
         }
     }
 }
