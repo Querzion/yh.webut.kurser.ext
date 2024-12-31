@@ -32,12 +32,19 @@ public partial class ListViewModel : ObservableObject
     [RelayCommand]
     private async Task NavigateToEdit(TodoItem item)
     {
-        await Shell.Current.GoToAsync("EditView");
+        var parameters = new ShellNavigationQueryParameters
+        {
+            {"Todo", item}
+        };
+
+        await Shell.Current.GoToAsync("EditView", parameters);
     }
 
     [RelayCommand]
-    private void Delete(TodoItem item)
+    private void Remove(TodoItem item)
     {
         _todoService.Remove(item);
+
+        TodoItems = new ObservableCollection<TodoItem>(_todoService.GetAll());
     }
 }

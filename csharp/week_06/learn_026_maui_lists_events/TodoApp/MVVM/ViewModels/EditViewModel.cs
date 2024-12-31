@@ -5,7 +5,9 @@ using TodoApp.Services;
 
 namespace TodoApp.MVVM.ViewModels;
 
-public partial class EditViewModel : ObservableObject
+// https://learn.microsoft.com/en-us/dotnet/maui/fundamentals/shell/navigation?view=net-maui-8.0
+
+public partial class EditViewModel : ObservableObject, IQueryAttributable
 {
     private readonly TodoService _todoService;
 
@@ -24,5 +26,10 @@ public partial class EditViewModel : ObservableObject
         Item = new();
 
         await Shell.Current.GoToAsync("..");
+    }
+
+    public void ApplyQueryAttributes(IDictionary<string, object> query)
+    {
+        Item = (query["Todo"] as TodoItem)!;
     }
 }
