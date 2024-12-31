@@ -4,12 +4,23 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:TodoApp"
+    
+    xmlns:views="clr-namespace:TodoApp.MVVM.Views"
+    
     Shell.FlyoutBehavior="Disabled"
     Title="TodoApp">
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Title="List"
+        ContentTemplate="{DataTemplate views:ListView}"
+        Route="ListView" />
+    <ShellContent
+        Title="Add"
+        ContentTemplate="{DataTemplate views:AddView}"
+        Route="AddView" />
+    <ShellContent
+        Title="Edit"
+        ContentTemplate="{DataTemplate views:EditView}"
+        Route="EditView" />
 
 </Shell>
